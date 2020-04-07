@@ -1,0 +1,37 @@
+#preview {
+  margin: 1em;
+  background: white;
+  padding: 1em;
+  overflow-y: auto;
+}
+
+#preview-panel {
+  grid-area: preview;
+ overflow: hidden;
+  height: 100%;
+  background-color: #eee;
+  margin: 0em 0.5em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5em;
+  font-size: 1rem;
+}
+
+#preview-panel > h2 {
+  width: 100%;
+  padding: 1em;
+  display: flex; 
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--main-color);
+  margin: 0;
+  border-radius: 0.3em 0.3em 0em 0em;
+  color: white;
+  text-align: left;
+  font-size: 1em;
+}
+
+#preview-panel > h2 >  strong {
+  margin: 0 0.5em;
+}
+

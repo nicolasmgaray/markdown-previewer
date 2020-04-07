@@ -1,0 +1,43 @@
+#editor-panel textarea {
+  resize: none;
+  background: white;
+  padding: 1em;
+  font-size: 0.8em;
+  margin: 1em;
+  width: auto;
+  flex: 1;
+  height: auto;
+  overflow-y: visible;
+}
+
+#editor-panel {
+  grid-area: editor;
+  overflow: hidden;
+  height: 100%;
+  background-color: #eee;
+  margin: 0em 0.5em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5em;
+  align-items: stretch;
+  font-size: 1rem;
+}
+
+#editor-panel h2 {
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--main-color);
+  margin: 0;
+  border-radius: 0.3em 0.3em 0em 0em;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  font-size: 1em;
+}
+
+#editor-panel strong {
+  margin: 0 0.5em;
+}

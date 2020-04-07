@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&family=Open+Sans&display=swap");
+
+:root {
+  --main-color: hsl(190, 70%, 60%);
+  font-size: calc(0.5em + 1vw);
+}
+
+* {
+  font-family: "Open Sans";
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: "Merriweather Sans";
+  font-weight: bold;
+}
+
+span {
+  font-family: "Merriweather Sans";
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+  padding: 0;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #333;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+}

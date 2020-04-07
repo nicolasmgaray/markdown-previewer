@@ -1,0 +1,39 @@
+#container {
+  width: 100%;
+  min-height: 100vh;
+  height: 100vh;
+  background-color: #222;
+  display: flex;
+  
+  display: grid;
+  grid-template:
+    "header header" auto
+    "editor preview" 1fr / 1fr 1fr;
+}
+
+#container header {
+  font-size: 2rem;
+  grid-area: header;
+  color: white;
+  padding: 0.5em;
+  height: auto;
+}
+
+#container i {
+  margin-right: 0.5em;
+  color: var(--main-color);
+}
+
+@media (max-width: 900px) {
+  #container header {
+    padding-bottom: 0;
+  }
+  #container {
+    grid-row-gap: 1em;
+    grid-template:
+      "header" auto
+      "editor " 45vh
+      " preview" 1fr
+      / 100%;
+  }
+}
