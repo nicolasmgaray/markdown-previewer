@@ -20,10 +20,11 @@ const Container = () => {
 };
 
 const defaultMD = `
-# Live demo
+# Markdown Previewer Live demo
+
+![VERSION](https://img.shields.io/github/package-json/v/NICOLASMGARAY/markdown-previewer?style=for-the-badge) ![STATUS](https://img.shields.io/github/deployments/nicolasmgaray/markdown-previewer/production?label=STATUS&logo=zeit&style=for-the-badge) ![COMMIT](https://img.shields.io/github/last-commit/nicolasmgaray/markdown-previewer?logo=github&style=for-the-badge)
 
 Changes are automatically rendered as you type, markdown styled as github md.
-
 Supports all **types** of _tags_
 
 ## Unordered List
