@@ -4,6 +4,8 @@
 ![STATUS](https://img.shields.io/github/deployments/nicolasmgaray/markdown-previewer/production?label=STATUS&logo=zeit&style=for-the-badge)
 ![COMMIT](https://img.shields.io/github/last-commit/nicolasmgaray/markdown-previewer?logo=github&style=for-the-badge)
 
+Markdown previewer (GitHub styled!) made with react
+
 ## Live Demo
 
 https://mng-markdown-previewer.now.sh/
